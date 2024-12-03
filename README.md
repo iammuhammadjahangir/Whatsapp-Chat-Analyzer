@@ -1,4 +1,4 @@
-echo "# WhatsApp Chat Analyzer
+## WhatsApp Chat Analyzer
 
 This is a **Streamlit-based application** to analyze WhatsApp chat data. It helps users visualize key statistics and insights from their WhatsApp conversations, such as message counts, word frequency, emoji usage, most active users, and more.
 
@@ -126,17 +126,6 @@ You can modify the \`file_uploader\` section in \`app.py\` to support more file 
 1. **App Not Loading**: Ensure all dependencies are correctly installed by running the \`pip install\` command.
 2. **File Format Issues**: Ensure that the WhatsApp export file is in \`.txt\` format and follows the typical WhatsApp chat export structure.
 3. **Missing \`stop_hinglish.txt\` File**: Make sure you have the \`stop_hinglish.txt\` file for word cloud generation.
-
-## Contributing
-
-Feel free to fork this project and submit issues or pull requests for bug fixes or feature enhancements.
-
-## License
-
-This project is open-source and available under the MIT License.
-" > README.md
-
-## Running Tests
 
 To run tests, run the following command
 
